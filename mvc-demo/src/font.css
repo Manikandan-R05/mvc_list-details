@@ -1,0 +1,13 @@
+/* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic');
+
+/* Your other CSS styles here */
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-family: 'Droid Serif', serif;
+}
+
+/* Add more styles as needed */
