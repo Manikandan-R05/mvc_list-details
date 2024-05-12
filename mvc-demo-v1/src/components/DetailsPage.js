@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Link, useParams } from "react-router-dom"; // Import Link
+import { Link, useParams } from "react-router-dom";
 import { UniversityContext } from "../context/UniversityContext";
 import "../styles/font.css";
 import "../styles/detail.css";
@@ -30,7 +30,6 @@ const DetailsPage = () => {
             <p>State-Province: {university["state-province"]}</p>
           )}
           <p>Country: {university.country}</p>
-          {/* Display other details of the selected university */}
           {university.domains[0] && (
             <a
               href={

@@ -1,7 +1,7 @@
 /* Import fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Oswald:wght@200..700&family=Poetsen+One&display=swap');
 
-/* Your other CSS styles here */
+
 body {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
